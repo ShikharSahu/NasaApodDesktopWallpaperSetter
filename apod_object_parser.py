@@ -62,9 +62,14 @@ def download_image(url, date):
     apod_dir_path = getProperDirectoryPath()
     
     complete_file_path = os.path.join(apod_dir_path, f'{date}.png')
+    headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0",
+    "Accept-Encoding": "*",
+    "Connection": "keep-alive"
+    }
 
     if os.path.isfile(complete_file_path) == False:
-        raw_image = requests.get(url).content
+        raw_image = requests.get(url, headers).content
         with open(complete_file_path, 'wb') as file:
             file.write(raw_image)
     return complete_file_path
