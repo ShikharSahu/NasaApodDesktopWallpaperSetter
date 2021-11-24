@@ -127,7 +127,7 @@ You can refer to [this](https://www.geeksforgeeks.org/schedule-a-python-script-t
 ### Note:
 
 + You are only allowed to make 30 API calls per hours. This is due to the demo key. You can bypass this by generating a real key from [here](https://api.nasa.gov/) and updating it in wallpaper_utility.py
-+ Saved images are stored in "C:\Users\[USERNAME]\Pictures\NasaApod"
++ Saved images are stored in "C:\Users\ [USERNAME]\Pictures\NasaApod"
 
 ## References:
 
