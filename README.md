@@ -12,13 +12,6 @@
 ![stars](https://img.shields.io/github/stars/ShikharSahu/NasaApodDesktopWallpaperSetter) ![forks](https://img.shields.io/github/forks/ShikharSahu/NasaApodDesktopWallpaperSetter) ![issues](https://img.shields.io/github/issues/ShikharSahu/NasaApodDesktopWallpaperSetter) ![license](https://img.shields.io/github/license/ShikharSahu/NasaApodDesktopWallpaperSetter) 
 
 
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-
 ## Installing the prequisites
 
 **Reminder that right now, this only works on windows.**
@@ -113,7 +106,9 @@ In the command promt, with the cloned repo open in it, run:
 python manual_wallpaper_changer.py
 ```
 A window will open:
+
 ![Gui Image](https://github.com/ShikharSahu/imageRepo/blob/main/NasaApodReadMe/apodGui.jpeg?raw=true)
+
 Select the date and click on "set as wallpaper".
 You can select any date from 2008 to today.
 
