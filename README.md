@@ -21,7 +21,7 @@
 Make sure you have python3 installed on your device. You can learn how to do this from [here](https://docs.python.org/3/using/windows.html)
 In the install dialog box, make sure you add Python 3 to the PATH.
 
-####Tip: Opening cmd in any folder
+#### Tip: Opening cmd in any folder
 Assuming that in File Explorer you have opened the target directory/folder, do this:
 
 1. Click on address bar, alternatively press Alt+D
@@ -59,6 +59,11 @@ Open cmd in that directory.
 
 Learn how to traverse folders in cmd from [here](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)
 
+To clone the repo, in the desired folder - open cmd and run the following:
+
+```
+git clone https://github.com/ShikharSahu/NasaApodDesktopWallpaperSetter.git
+```
 
 ### Required packages
 Run the below commands one by one and make sure there are no errors.
