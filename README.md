@@ -75,6 +75,8 @@ Just go to the cloned repository and run the following on cmd:
 ```
 pip install win10toast
 pip install tkcalendar
+pip install Pillow
+pip install requests
 ```
 
 ## Run the Program
