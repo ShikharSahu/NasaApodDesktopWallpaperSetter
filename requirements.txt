@@ -1,2 +1,4 @@
 win10toast==0.9
 tkcalendar==1.6.1
+requests==2.25.1
+Pillow==8.1.2
